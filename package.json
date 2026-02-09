@@ -1,0 +1,31 @@
+{
+  "name": "testing-refuerzo",
+  "version": "1.0.0",
+  "description": "Esta aplicación es un entorno de pruebas diseñado para aprender los fundamentos del testing automatizado en el backend. El objetivo es pasar de las pruebas manuales en Postman a tests automáticos que aseguren que nuestros modelos de Mongoose y nuestras rutas de Express funcionan correctamente sin necesidad de una base de datos real.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reyeslim/testing-refuerzo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Reyeslim/testing-refuerzo/issues"
+  },
+  "homepage": "https://github.com/Reyeslim/testing-refuerzo#readme",
+  "dependencies": {
+    "dotenv": "17.2.4",
+    "express": "5.2.1",
+    "mongodb-memory-server": "11.0.1",
+    "mongoose": "9.1.6"
+  },
+  "devDependencies": {
+    "jest": "30.2.0"
+  }
+}
